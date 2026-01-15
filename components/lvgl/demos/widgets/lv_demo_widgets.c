@@ -228,7 +228,7 @@ static void profile_create(lv_obj_t * parent)
     lv_img_set_src(avatar, &img_demo_widgets_avatar);
 
     lv_obj_t * name = lv_label_create(panel1);
-    lv_label_set_text(name, "Elena Smith");
+    lv_label_set_text(name, "Bhumika Tiwari");
     lv_obj_add_style(name, &style_title, 0);
 
     lv_obj_t * dsc = lv_label_create(panel1);
@@ -241,14 +241,14 @@ static void profile_create(lv_obj_t * parent)
     lv_label_set_text(email_icn, LV_SYMBOL_ENVELOPE);
 
     lv_obj_t * email_label = lv_label_create(panel1);
-    lv_label_set_text(email_label, "elena@smith.com");
+    lv_label_set_text(email_label, "Bhumika@Tiwari.com");
 
     lv_obj_t * call_icn = lv_label_create(panel1);
     lv_obj_add_style(call_icn, &style_icon, 0);
     lv_label_set_text(call_icn, LV_SYMBOL_CALL);
 
     lv_obj_t * call_label = lv_label_create(panel1);
-    lv_label_set_text(call_label, "+79 246 123 4567");
+    lv_label_set_text(call_label, "+91 946 123 4567");
 
     lv_obj_t * log_out_btn = lv_btn_create(panel1);
     lv_obj_set_height(log_out_btn, LV_SIZE_CONTENT);
